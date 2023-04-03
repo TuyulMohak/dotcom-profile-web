@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lff">
     <q-header bordered class="bg-white">
       <q-toolbar class="q-mx-sm row justify-center" style="width:100vw">
         <q-list class="row col-10 " style="min-width:300px;max-width: 700px;">
@@ -54,6 +54,10 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-footer class="text-white text-right row bg-transparent justify-end">
+      <div class="bg-grey-4 col-3 text-black" style="border-radius:15px 0 0 0">© 2023 Muhammad Rivandra, All rights reserved.</div>
+    </q-footer>
   </q-layout>
 </template>
 
