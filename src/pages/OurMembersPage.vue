@@ -4,7 +4,7 @@
       <div class="gt-xs text-h1 text-bold q-mb-lg light-blue-underline">Our Members</div>
       <div class="lt-sm text-h2 text-bold q-mb-lg light-blue-underline">Our Members</div>
       <div class="q-mb-md text-center row justify-center">
-        <div class="col-md-8 col-sm-10 col-xs-11">
+        <div class="col-md-8 col-sm-10 col-xs-12">
           <div class="text-p">Here you'll find a list of <strong>passionate industrial engineering students</strong> dedicated to enhancing IT skills and data management. Connect, collaborate, and grow with like-minded members who are driving positive change in the field. Let's innovate together!</div>
         </div>
       </div>

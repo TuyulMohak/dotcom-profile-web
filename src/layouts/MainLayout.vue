@@ -56,7 +56,7 @@
     </q-page-container>
 
     <q-footer class="text-white text-right row bg-transparent justify-end">
-      <div class="bg-grey-4 col-3 text-black" style="border-radius:15px 0 0 0">© 2023 Muhammad Rivandra, All rights reserved.</div>
+      <div class="bg-grey-4 col-md-3 col-sm-6 col-xs-12 text-black" style="border-radius:15px 0 0 0">© 2023 Muhammad Rivandra, All rights reserved.</div>
     </q-footer>
   </q-layout>
 </template>

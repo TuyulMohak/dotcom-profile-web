@@ -4,7 +4,10 @@
       <div class="text-subtitle1 row">
         Dotcom HMTI FT Unand
       </div>
-      <div class="text-h2 text-bold row title">
+      <div class="gt-xs text-h2 text-bold row title">
+        Empowering <strong>Industrial Engineers</strong> with IT Excellence <span position="ab" class="text-p">🌌</span>
+      </div>
+      <div class="lt-sm text-h3 text-bold row title" style="line-height:3.3rem">
         Empowering <strong>Industrial Engineers</strong> with IT Excellence <span position="ab" class="text-p">🌌</span>
       </div>
       <div class="text-p row">
