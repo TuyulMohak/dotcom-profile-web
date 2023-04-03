@@ -11,7 +11,7 @@
           If you have any questions or comments about our organization or would like to get involved, we would love to hear from you! Our team is here to provide you with the information you need and help you become a part of our growing community.
         </div>
         <div class="text-p">
-          Connect with me on <strong>Social Media</strong> and <strong>E-mail</strong> using the buttons below.
+          Connect with Us on <strong>Social Media</strong> and <strong>E-mail</strong> using the buttons below.
         </div>
         <div class="q-gutter-x-sm">
           <q-btn outline round color="primary" icon="mdi-linkedin" href="https://www.linkedin.com/company/dotcom-hmti-ft-unand/about/?viewAsMember=true" target="_blank" />
