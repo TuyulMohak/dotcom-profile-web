@@ -5,7 +5,51 @@
   --light-blue: #59D9E3;
 }
 
+.link {
+  color: black;
+}
 
-/* dark blue #0452B0 */
-/* medium blue #59D9E3 */
-/* dark blue #001839*/
+link:hover{
+  color:var(--medium-blue);
+  text-decoration: underline
+}
+.active-link{
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-thickness: 20%;
+  color: var(--light-blue);
+}
+
+.light-blue-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--light-blue);
+}
+
+strong{
+  background: -webkit-linear-gradient(0deg,var(--medium-blue) 20%, var(--light-blue) 100% );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.blue-gradient {
+  background: linear-gradient(to right, var(--light-blue), var(--medium-blue));
+}
+
+.blue-img {
+  filter: sepia(100%) hue-rotate(180deg) brightness(75%);
+}
+
+.pos-fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+}
+
+.pos-left-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}
