@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lff">
     <q-header bordered class="bg-white">
-      <q-toolbar class="q-mx-sm row justify-center" style="width:100vw">
+      <q-toolbar class="q-pr-sm q-pl-md row justify-center" style="width:100vw">
         <q-list class="row col-10 " style="min-width:300px;max-width: 700px;">
           <q-item clickable to="/">
             <q-avatar>
