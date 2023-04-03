@@ -14,7 +14,7 @@
     <section class="gt-sm col-4 self-end self-right" style="height:80vh">
       <div class="pos-fixed">
         <q-img
-          src="public\images\teknik-industri.jpeg"
+          src="\images\teknik-industri.jpeg"
           fit="cover"
           style="height:92vh"
         />

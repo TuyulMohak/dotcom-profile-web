@@ -41,7 +41,7 @@ const personList = [
   },
   {
     name: 'Farhan Nafily',
-    photoUrl: 'public/images/nafily.png',
+    photoUrl: '/images/nafily.png',
     position: 'Member',
     email: null,
     linkedinUrl: 'https://www.linkedin.com/in/farhannafily/',
@@ -49,7 +49,7 @@ const personList = [
   },
   {
     name: 'Fathoni Albi',
-    photoUrl: 'public/images/raisei.png',
+    photoUrl: '/images/raisei.png',
     position: 'Member',
     email: null,
     linkedinUrl: 'https://www.linkedin.com/in/fathoni-albi-7a35b0155/',
@@ -57,7 +57,7 @@ const personList = [
   },
   {
     name: 'Febryan Alhamdi',
-    photoUrl: 'public/images/ryan.png',
+    photoUrl: '/images/ryan.png',
     position: 'Member',
     email: null,
     linkedinUrl: 'https://www.linkedin.com/in/febryan-alhamdi-7208bb1a5/',
@@ -65,7 +65,7 @@ const personList = [
   },
   {
     name: 'Irfandi Novembri',
-    photoUrl: 'public/images/irfandi.png',
+    photoUrl: '/images/irfandi.png',
     position: 'Member',
     email: null,
     linkedinUrl: 'https://www.linkedin.com/in/irfandi-novembri/',

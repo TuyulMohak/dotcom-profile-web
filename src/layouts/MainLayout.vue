@@ -6,7 +6,7 @@
           <q-item clickable to="/">
             <q-avatar>
               <q-img
-                src="public\icons\android-chrome-192x192.png"
+                src="\icons\android-chrome-192x192.png"
               />
             </q-avatar>
           </q-item>
