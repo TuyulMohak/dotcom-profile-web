@@ -1,1 +1,11 @@
 /* app global css */
+:root {
+  --dark-blue:#001839;
+  --medium-blue: #0452B0;
+  --light-blue: #59D9E3;
+}
+
+
+/* dark blue #0452B0 */
+/* medium blue #59D9E3 */
+/* dark blue #001839*/
