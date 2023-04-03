@@ -16,7 +16,7 @@
     </section>
     <section class="col-5 gt-sm">
       <q-img
-        src="public\images\logo_dotcom.png"
+        src="\images\logo_dotcom.png"
       />
     </section>
   </q-page>
