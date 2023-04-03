@@ -1,5 +1,5 @@
 <template>
-  <q-page padding>
+  <q-page class="row justify-center items-center q-gutter-md bg-purple" style="height:90vh">
     ABOUT US PAGE
   </q-page>
 </template>

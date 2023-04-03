@@ -1,27 +1,26 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header bordered class="bg-transparent">
-      <q-toolbar class="row justify-center" style="width:100vw">
-        <q-avatar>
-          <q-img
-            src="public\icons\android-chrome-192x192.png"
-          />
-        </q-avatar>
-        <q-list class="col-12 row " style="min-width:350px;max-width: 600px;">
+      <q-toolbar class="q-mx-sm row justify-center" style="width:100vw">
+        <q-list class="row col-10 " style="min-width:300px;max-width: 700px;">
           <q-item>
-
+            <q-avatar>
+              <q-img
+                src="public\icons\android-chrome-192x192.png"
+              />
+            </q-avatar>
           </q-item>
           <q-item
             v-for="menu in pageMenu" :key="menu.url"
             clickable v-ripple
             :to="menu.url"
-            class="col text-center link"
+            class="col text-center link gt-xs "
             active-class="active-link"
           >
             <q-item-section class="text-p text-black">{{menu.label}}</q-item-section>
           </q-item>
         </q-list>
-
+        <q-btn flat color="blue-9" size="xl" icon="menu" class="lt-sm" @click="onClick" />
       </q-toolbar>
     </q-header>
 
@@ -75,6 +74,7 @@ export default defineComponent({
 </script>
 
 <style>
+
 .link {
   color: black;
 }

@@ -1,20 +1,20 @@
 <template>
-  <q-page class="row justify-center items-center q-gutter-md" style="height:90vh">
-    <section class="col-5 q-gutter-md">
+  <q-page class="row justify-center items-center q-px-md q-gutter-y-md" style="height:90vh">
+    <section class="col-md-5 col-sm-8 col-xs-10 q-gutter-y-md">
       <div class="text-subtitle2 row">
         Dotcom HMTI FT Unand
       </div>
-      <div class="text-h2 text-bold row">
+      <div class="text-h2 text-bold row title">
         Empowering <lightBlueGrad>Industrial Engineers</lightBlueGrad> with IT Excellence&nbsp;<div class="text-h2">🌌</div>
       </div>
       <div class="text-p row">
         Dotcom is a sub-organization of HMTI FT Unand, dedicated to creating a space for industrial engineering students to connect, share knowledge, and learn about new technology together.
       </div>
-      <div class="row">
+      <div class="row q-pt-sm">
         <q-btn outline color="primary" label="More About Us" to="/about-us" />
       </div>
     </section>
-    <section class="col-5">
+    <section class="col-5 gt-sm">
       <q-img
         src="public\images\logo_dotcom.png"
       />
@@ -34,7 +34,9 @@ export default defineComponent({
 /* dark blue #0452B0 */
 /* medium blue #59D9E3 */
 /* dark blue #001839*/
-
+.title{
+  line-height: 4rem;
+}
 LightBlueGrad{
   background: -webkit-linear-gradient(0deg, var(--medium-blue), var(--light-blue));
   background-clip: text;
